@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-heading: 'Dosis', sans-serif;
+    --ff-text: 'Open Sans', sans-serif;
+
+    --bg: hsl(0, 10%, 90%);
+    --span: hsla(295, 100%, 57%, 1);
+    --fc-1: hsla(245, 17%, 29%, 1);
+    --fc-2: hsla(0, 0%, 51%, 1);
+
+    font-size: 62.5%;
+
+}
+
+body{
+    background: var(--bg);
+
+    
+    text-align: center;
+    margin-top: 6.4rem;
+
+    min-height: 100vh;
+    position: relative;
+}
+
+main{
+    margin: 0 auto;
+    width: 54rem;
+}
+
+main h1{
+    font-family: var(--ff-heading);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    color: var(--fc-1);
+
+    margin-top: 3.2rem;
+    margin-bottom: 1.6rem;
+}
+
+main h1 span{
+    font-weight: 700;
+    color: var(--span);
+}
+
+p{
+    font-family: var(--ff-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: var(--fc-2);
+
+    margin: 0 auto 3.2rem;
+}
+
+p span{
+    font-weight: 700;
+    color: var(--fc-1);
+}
+
+#line{
+    margin: 0 auto;
+    width: 39rem;
+    height: 0;
+    border: 1px solid #c4c8cb;
+
+    margin-top: 10rem;
+}
+
+footer{
+    margin-top: 1.2rem;
+}
+
+footer a{
+    text-decoration: none;
+
+    font-family: var(--ff-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 147.68%;
+    color: var(--fc-1);
+}
+
+a:hover{
+    color: var(--span);
+}
+
+footer a + a{
+    margin-left: 4rem;
+}
+
+#footerimg img{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
